@@ -1,4 +1,4 @@
-Sword Master: A Motion-Controlled Game
+**Sword Master: A Motion-Controlled Game**
 Overview
 Sword Master is an interactive motion-controlled game that uses your webcam to track your body movements. Play as a stickman warrior who battles enemies using sword gestures tracked through your real-life movements.
 Features

@@ -30,29 +30,6 @@ bashpip install -r requirements.txt
 Or install them manually:
 bashpip install pygame opencv-python mediapipe
 
-Make sure you have the proper folder structure:
-Stickman-Game/
-├── app2.py (the main game file)
-├── story.txt (narrative content)
-├── requirements.txt
-├── Assets/
-│   ├── fantasy-sword.png
-│   ├── boss.png
-│   ├── skull.png
-│   ├── heartfull.png
-│   ├── game_over.png
-│   ├── title_bg.png (optional)
-│   ├── font/
-│   │   └── OpenSans-VariableFont_wdth_wght.ttf
-│   ├── sounds/
-│   │   ├── sword_slash.wav
-│   │   ├── devil_die.wav
-│   │   ├── boss_hit.wav
-│   │   ├── player_hit.wav
-│   │   └── menu_select.wav
-│   └── music/
-│       └── The-Black-Waltz__Scott-Buckley.mp3
-
 
 🎯 How to Play
 

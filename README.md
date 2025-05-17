@@ -1,107 +1,161 @@
-Stickman-Game
+# 🕹️ Stickman-Game
 
-🎮 Overview
-Stickman Game with implementation of OpenCV module and Pygame - just take it, lite and enjoy! This motion-controlled game uses your webcam to track your body movements, allowing you to control a stickman character on screen. Swing your arms to wield virtual swords and defeat the invading devils and boss enemies!
-✨ Features
+**A webcam-based motion-controlled game using OpenCV, MediaPipe, and Pygame.**  
+Just take it lite and enjoy!
 
-Full Body Motion Control: Control your character using natural body movements
-Dual-Wielding Combat: Swing both arms to control two different swords
-Progressive Difficulty: Enemies move faster as your score increases
-Boss Battles: Face challenging boss enemies at score milestones
-Health System: Manage your health while avoiding enemy attacks
-Interactive Story Mode: Immerse yourself in the game narrative
-Dynamic Sound Effects: Enjoy responsive audio feedback during gameplay
+---
 
-🛠️ Prerequisites
+## 🎮 Overview
 
-Python 3.7 or higher
-Webcam
-Sufficient lighting for motion detection
-Required Python packages (see Installation)
+**Stickman-Game** is an interactive motion-controlled game where your body becomes the controller! Using your webcam, the game tracks your full-body movements to let you control a stickman character on screen. Swing your arms to control swords and defeat waves of invading devils and powerful boss enemies.
 
-📋 Installation
+---
 
-Clone this repository:
-bashgit clone https://github.com/uayushdubey/Stickman-Game.git
+## ✨ Features
+
+- 🔁 **Full Body Motion Control** – Move your arms and body to control the stickman character and swords.
+- ⚔️ **Dual-Wielding Combat** – Use both arms to control two different swords.
+- 📈 **Progressive Difficulty** – Enemies get faster as your score increases.
+- 👹 **Boss Battles** – Face tough bosses at score milestones.
+- ❤️ **Health System** – Start with 5 hearts and avoid getting hit.
+- 📖 **Interactive Story Mode** – Enjoy a simple narrative before gameplay.
+- 🔊 **Dynamic Sound Effects** – Responsive audio feedback during gameplay.
+
+---
+
+## 🛠️ Prerequisites
+
+- Python 3.7 or higher
+- Webcam
+- Proper lighting for accurate motion detection
+
+---
+
+## 📦 Installation
+
+### 🔁 Clone the Repository
+
+```bash
+git clone https://github.com/uayushdubey/Stickman-Game.git
 cd Stickman-Game
+```
 
-Install required packages:
-bashpip install -r requirements.txt
-Or install them manually:
-bashpip install pygame opencv-python mediapipe
+### 📥 Install Dependencies
 
+#### Option 1: Using `requirements.txt`
+```bash
+pip install -r requirements.txt
+```
 
-🎯 How to Play
+#### Option 2: Manual Installation
+```bash
+pip install pygame opencv-python mediapipe
+```
 
-Run the game:
-bashpython app2.py
+---
 
-Position yourself in front of your webcam, ensuring your whole body is visible
-On the title screen, press any key to start
-Read through the story (or press Skip)
-Move your arms to control the swords
-Hit the devils with your swords to score points
-Avoid letting the devils touch your body
-Defeat bosses to earn extra health
-Press Q at any time to quit the game
+## 🎯 How to Play
 
-🎮 Controls
+```bash
+python app2.py
+```
 
-Right Arm Movement: Controls the right sword
-Left Arm Movement: Controls the left sword
-Body Position: Controls the stickman character
-Any Key: Advance through story screens
-Q Key: Quit game
+1. Stand in front of your webcam (your full body should be visible).
+2. On the title screen, press any key to start.
+3. Read the story or press **Skip**.
+4. Move your arms to control swords.
+5. Hit devils to earn points and avoid letting them touch your body.
+6. Defeat bosses for extra health.
+7. Press **Q** anytime to quit the game.
 
-🧠 Game Mechanics
+---
 
-Score: Increases by 1 with each defeated enemy
-Health: Starts with 5 hearts, decreases when enemies hit you
-Boss Levels: Triggered every 20 points
-Devil Speed: Increases after each hit, making the game progressively harder
-Boss Health: Increases with your score, making boss battles more challenging
+## 🎮 Controls
 
-🏆 Winning Strategy
+| Action            | Control             |
+|-------------------|---------------------|
+| Move Right Arm    | Right Sword         |
+| Move Left Arm     | Left Sword          |
+| Body Movement     | Stickman Movement   |
+| Any Key           | Advance Story       |
+| Q Key             | Quit Game           |
 
-Keep moving to avoid enemy contact
-Use quick, precise arm movements for better sword control
-Focus on devils approaching your body
-During boss battles, prioritize hitting the boss while avoiding contact
-Try to maintain maximum health before boss encounters
+---
 
-🔧 Troubleshooting
+## 🧠 Game Mechanics
 
-Poor Motion Detection: Ensure you have adequate lighting and your full body is visible
-Performance Issues: Close other applications to free up system resources
-Sound Problems: Check your system's audio settings and volume
-Missing Assets: Verify all required files exist in the proper directories
+- **Score**: +1 for every enemy hit.
+- **Health**: Starts with 5 hearts, decreases when hit.
+- **Boss Battles**: Appear every 20 points.
+- **Enemy Speed**: Increases with each hit.
+- **Boss Health**: Scales with score.
 
-🛣️ Roadmap
+---
 
- Multiplayer mode
- Additional enemy types
- Power-ups and special abilities
- Customizable character appearance
- Level selection system
+## 🏆 Winning Strategy
 
-🤝 Contributing
-Contributions are welcome! Please feel free to submit a Pull Request.
+- Stay mobile to avoid hits.
+- Use sharp, controlled arm movements.
+- Prioritize enemies near your body.
+- Prepare for boss battles with maximum health.
 
-Fork the project
-Create your feature branch (git checkout -b feature/AmazingFeature)
-Commit your changes (git commit -m 'Add some AmazingFeature')
-Push to the branch (git push origin feature/AmazingFeature)
-Open a Pull Request
+---
 
-📜 License
-This project is licensed under the MIT License - see the LICENSE file for details.
-🙏 Acknowledgements
+## 🛠️ Troubleshooting
 
-Pygame - Game development library
-MediaPipe - Motion tracking framework
-OpenCV - Computer vision library
-Scott Buckley - Background music composer
+| Issue                  | Solution                                              |
+|------------------------|-------------------------------------------------------|
+| Poor Motion Detection  | Ensure good lighting and full-body visibility        |
+| Lag/Performance        | Close other apps to improve performance              |
+| No Sound               | Check system audio settings                          |
+| Missing Assets         | Verify that all required files exist properly        |
 
+---
 
-Developed by uayushdubey
-"Just take it lite and enjoy!"
+## 🛣️ Roadmap
+
+- [ ] Multiplayer mode  
+- [ ] Additional enemy types  
+- [ ] Power-ups & special abilities  
+- [ ] Customizable character skins  
+- [ ] Level selection system  
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome! 🎉
+
+1. Fork the repository  
+2. Create your feature branch:  
+   ```bash
+   git checkout -b feature/AmazingFeature
+   ```
+3. Commit your changes:  
+   ```bash
+   git commit -m "Add AmazingFeature"
+   ```
+4. Push to the branch:  
+   ```bash
+   git push origin feature/AmazingFeature
+   ```
+5. Open a Pull Request
+
+---
+
+## 📜 License
+
+This project is licensed under the **MIT License** – see the [LICENSE](LICENSE) file for details.
+
+---
+
+## 🙏 Acknowledgements
+
+- **[Pygame](https://www.pygame.org/)** – Game development library  
+- **[MediaPipe](https://mediapipe.dev/)** – Motion tracking framework  
+- **[OpenCV](https://opencv.org/)** – Computer vision library  
+- **Scott Buckley** – Background music composer  
+
+---
+
+> Developed by [@uayushdubey](https://github.com/uayushdubey) — _"Just take it lite and enjoy!"_
